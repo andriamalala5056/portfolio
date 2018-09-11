@@ -151,6 +151,10 @@ html, body {
     color: #113f59;
 }
 
+#about img {
+    margin: 35px 0px 20px 0px;
+}
+
 #portfolio {
     padding: 20px;
     background-color: #19bec0;
