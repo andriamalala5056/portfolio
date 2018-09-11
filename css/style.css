@@ -4,6 +4,14 @@ html, body {
     background-color: #f3edd3;
 }
 
+.menu li, .banner h2, #about p, #portfolio p, #contact p, .copy p {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.banner h1, #about h2, #portfolio h2, #contact h2 {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
 /*
 .menu {
     z-index: 5;
@@ -68,7 +76,6 @@ html, body {
     -moz-box-shadow: 3px 3px 12px -3px #000000;
     box-shadow: 3px 3px 12px -3px #000000;
     margin: 2px 0px 2px 0px;
-    font-family: "Courier New", Courier, monospace;
     background-color: #113f59;
     text-align: right;
     padding: 10px;
@@ -99,7 +106,6 @@ html, body {
 }
 
 .banner h1, .banner h2 {
-    font-family: Impact, Charcoal, sans-serif;
     color: #f3edd3;
     margin: 0;
     -webkit-box-shadow: 0px 8px 60px -11px #000000;
@@ -119,7 +125,6 @@ html, body {
 .banner h2 {
     background-color: transparent;
     box-shadow: none;
-    font-family: "Courier New", Courier, monospace;
     font-weight: normal;
     text-align: center;
     margin-top: 20px;
@@ -142,14 +147,12 @@ html, body {
 }
 
 #about h2 {
-    font-family: Impact, Charcoal, sans-serif;
     color: #e45c65;
     border-bottom: 1px dotted;
     padding-bottom: 5px;
 }
 
 #about p {
-    font-family: "Courier New", Courier, monospace;
     color: #113f59;
 }
 
@@ -164,14 +167,12 @@ html, body {
 }
 
 #portfolio h2 {
-    font-family: Impact, Charcoal, sans-serif;
     color: #113f59;
     border-bottom: 1px dotted;
     padding-bottom: 5px;
 }
 
 #portfolio p {
-    font-family: "Courier New", Courier, monospace;
     color: #f3edd3;
 }
 
@@ -181,14 +182,12 @@ html, body {
 }
 
 #contact h2 {
-    font-family: Impact, Charcoal, sans-serif;
     color: #e45c65;
     border-bottom: 1px dotted;
     padding-bottom: 5px;
 }
 
 #contact p {
-    font-family: "Courier New", Courier, monospace;
     color: #113f59;
 }
 
@@ -203,7 +202,6 @@ p {
 }
 
 .copy p {
-    font-family: "Courier New", Courier, monospace;
     color: #f3edd3;
     margin: 5px 0px 5px 0px;
     font-size: 12px;
