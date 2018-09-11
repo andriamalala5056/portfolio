@@ -4,12 +4,31 @@ html, body {
     background-color: #f3edd3;
 }
 
+@font-face {
+    font-family:"Impact";
+    src:url("../fonts/impact.woff2") format("woff2"),url("../fonts/impact.woff") format("woff"),url("../fonts/impact.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Phank";
+    src:url("../fonts/Phank.woff2") format("woff2"),url("../fonts/Phank.woff") format("woff"),url("../fonts/Phank.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"Courier New";
+    src:url("../fonts/cour___0.woff2") format("woff2"),url("../fonts/cour___0.woff") format("woff"),url("../fonts/cour___0.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
 .menu li, .banner h2, #about p, #portfolio p, #contact p, .copy p {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New";
 }
 
 .banner h1, #about h2, #portfolio h2, #contact h2 {
-    font-family: Courier New;
+    font-family: "Impact";
+    font-weight: normal;
 }
 
 /*
@@ -88,12 +107,6 @@ html, body {
 }
 
 /* MENU MOBILE END */
-
-@font-face {
-    font-family:"Phank";
-    src:url("../fonts/Phank.woff2") format("woff2"),url("../fonts/Phank.woff") format("woff"),url("../fonts/Phank.otf") format("opentype");
-    font-style:normal;font-weight:400;
-}
 
 .banner {
     height: 100vh;
