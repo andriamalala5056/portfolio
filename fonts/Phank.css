@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"Phank";
+    src:url("Phank.woff2") format("woff2"),url("Phank.woff") format("woff"),url("Phank.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

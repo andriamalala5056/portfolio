@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #f3edd3;
+}
+
+/*
+.menu {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    background-color: #113f59;
+    -webkit-box-shadow: 0px 0px 10px 0px;
+    -moz-box-shadow: 0px 0px 10px 0px;
+    box-shadow: 0px 0px 10px 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li, .menu li > a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.menu li:hover > a {
+    color: #20d6c7;
+}
+*/
+
+/* MENU MOBILE START */
+
+.menu {
+    top: calc(50% - 83px);
+    position: fixed;
+    z-index: 5;
+    left: -98px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.menu:hover {
+    left: 0px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li, .menu li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li {
+    -webkit-box-shadow: 3px 3px 12px -3px #000000;
+    -moz-box-shadow: 3px 3px 12px -3px #000000;
+    box-shadow: 3px 3px 12px -3px #000000;
+    margin: 2px 0px 2px 0px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #113f59;
+    text-align: right;
+    padding: 10px;
+    display: block;
+}
+
+.menu li:hover > a {
+    color: #20d6c7;
+    margin-left: 0px;
+}
+
+/* MENU MOBILE END */
+
+@font-face {
+    font-family:"Phank";
+    src:url("../fonts/Phank.woff2") format("woff2"),url("../fonts/Phank.woff") format("woff"),url("../fonts/Phank.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+.banner {
+    height: 100vh;
+    background-color: #d54f58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    flex-direction: column;
+}
+
+.banner h1, .banner h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #f3edd3;
+    margin: 0;
+    -webkit-box-shadow: 0px 8px 60px -11px #000000;
+    -moz-box-shadow:  0px 8px 60px -11px #000000;
+    box-shadow: 0px 8px 60px -11px #000000;
+    padding: 5px 20px 5px 20px;
+    background-color: #e45c65;
+}
+
+.banner p {
+    font-family: "Phank";
+    font-size: 70px;
+    color: #f3edd3;
+    transform: rotate(-7deg);
+}
+
+.banner h2 {
+    background-color: transparent;
+    box-shadow: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 200px;
+    margin-bottom: 20px;
+    border: 4px solid #f3edd3;
+    box-shadow: 0px 9px 67px -12px;
+}
+
+#about {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+#about h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #e45c65;
+    border-bottom: 1px dotted;
+    padding-bottom: 5px;
+}
+
+#about p {
+    font-family: "Courier New", Courier, monospace;
+    color: #113f59;
+}
+
+#portfolio {
+    padding: 20px;
+    background-color: #19bec0;
+    min-height: 100vh;
+}
+
+#portfolio h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #113f59;
+    border-bottom: 1px dotted;
+    padding-bottom: 5px;
+}
+
+#portfolio p {
+    font-family: "Courier New", Courier, monospace;
+    color: #f3edd3;
+}
+
+#contact {
+    padding: 20px;
+    min-height: calc(100vh - 120px);
+}
+
+#contact h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #e45c65;
+    border-bottom: 1px dotted;
+    padding-bottom: 5px;
+}
+
+#contact p {
+    font-family: "Courier New", Courier, monospace;
+    color: #113f59;
+}
+
+
+footer.copy {
+    background-color: #113f59;
+    padding: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.copy p {
+    font-family: "Courier New", Courier, monospace;
+    color: #f3edd3;
+    margin: 5px 0px 5px 0px;
+    font-size: 12px;
+}
