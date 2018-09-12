@@ -16,7 +16,7 @@ p {
 }
 
 @font-face {
-    font-family:"Impact", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:"Impact";
     src:url("../fonts/impact.woff2") format("woff2"),url("../fonts/impact.woff") format("woff"),url("../fonts/impact.otf") format("opentype");
     font-style:normal;font-weight:400;
 }
