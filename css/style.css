@@ -4,8 +4,19 @@ html, body {
     background-color: #f3edd3;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #113f59;
+}
+
 @font-face {
-    font-family:"Impact";
+    font-family:"Impact", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     src:url("../fonts/impact.woff2") format("woff2"),url("../fonts/impact.woff") format("woff"),url("../fonts/impact.otf") format("opentype");
     font-style:normal;font-weight:400;
 }
@@ -109,12 +120,12 @@ html, body {
 /* MENU MOBILE END */
 
 .banner {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #d54f58;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px 30px 0px;
+    padding: 20px 0px 30px 0px;
     flex-direction: column;
 }
 
@@ -154,68 +165,103 @@ html, body {
     box-shadow: 0px 9px 67px -12px;
 }
 
-#about {
-    padding: 20px;
-    min-height: 100vh;
-}
-
-#about h2 {
+#contact h2, #about h2 {
     color: #e45c65;
-    border-bottom: 1px dotted;
+    border-bottom: 1px dotted #e45c65;
     padding-bottom: 5px;
 }
 
-#about p {
-    color: #113f59;
+#about {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #about img {
-    margin: 35px 0px 20px 0px;
+    margin-top: 35px;
 }
 
 #portfolio {
     padding: 20px;
     background-color: #19bec0;
     min-height: 100vh;
+    padding-bottom: 30px;
 }
 
 #portfolio h2 {
     color: #113f59;
-    border-bottom: 1px dotted;
+    border-bottom: 1px dotted #113f59;
     padding-bottom: 5px;
 }
 
 #portfolio p {
     color: #f3edd3;
+    margin-bottom: 20px;
 }
 
 #contact {
-    padding: 20px;
-    min-height: calc(100vh - 120px);
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-#contact h2 {
-    color: #e45c65;
-    border-bottom: 1px dotted;
-    padding-bottom: 5px;
-}
-
-#contact p {
-    color: #113f59;
-}
-
 
 footer.copy {
     background-color: #113f59;
     padding: 20px;
 }
 
-p {
-    margin: 0;
-}
-
 .copy p {
     color: #f3edd3;
     margin: 5px 0px 5px 0px;
     font-size: 12px;
+}
+
+#portfolio div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#portfolio img {
+    -webkit-filter: grayscale(100%);
+    -moz-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    transition: 0.9s;
+}
+
+#portfolio img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+table {
+    font-family: "Courier New";
+    color: #113f59;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 280px;
+}
+
+.social i.fa {
+    font-size: 50px;
+    color: #113f59;
 }
