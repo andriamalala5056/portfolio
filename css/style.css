@@ -17,19 +17,19 @@ p {
 
 @font-face {
     font-family:"Impact";
-    src:url("../fonts/impact.woff2") format("woff2"),url("../fonts/impact.woff") format("woff"),url("../fonts/impact.otf") format("opentype");
+    src:url("../fonts/impact.woff2") format("woff2"),url("../fonts/impact.woff") format("woff");
     font-style:normal;font-weight:400;
 }
 
 @font-face {
     font-family:"Phank";
-    src:url("../fonts/Phank.woff2") format("woff2"),url("../fonts/Phank.woff") format("woff"),url("../fonts/Phank.otf") format("opentype");
+    src:url("../fonts/Phank.woff2") format("woff2"),url("../fonts/Phank.woff") format("woff");
     font-style:normal;font-weight:400;
 }
 
 @font-face {
     font-family:"Courier New";
-    src:url("../fonts/cour___0.woff2") format("woff2"),url("../fonts/cour___0.woff") format("woff"),url("../fonts/cour___0.otf") format("opentype");
+    src:url("../fonts/cour___0.woff2") format("woff2"),url("../fonts/cour___0.woff") format("woff");
     font-style:normal;font-weight:400;
 }
 
