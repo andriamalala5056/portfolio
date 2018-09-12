@@ -33,7 +33,7 @@ p {
     font-style:normal;font-weight:400;
 }
 
-.menu li, .banner h2, #about p, #portfolio p, #contact p, .copy p {
+.menu li, .banner h2, #about p, #portfolio p, #contact p, .copyright p {
     font-family: "Courier New";
 }
 
@@ -207,12 +207,12 @@ p {
     justify-content: space-between;
 }
 
-footer.copy {
+footer.copyright {
     background-color: #113f59;
     padding: 20px;
 }
 
-.copy p {
+.copyright p {
     color: #f3edd3;
     margin: 5px 0px 5px 0px;
     font-size: 12px;
@@ -264,4 +264,93 @@ table {
 .social i.fa {
     font-size: 50px;
     color: #113f59;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    transition: 0.9s;
+}
+
+i.fa.fa-facebook-square:hover {
+    color: #445994;
+}
+
+i.fa.fa-twitter-square:hover {
+    color: #51a0ec;
+}
+
+i.fa.fa-linkedin-square:hover {
+    color: #3575ae;
+}
+
+i.fa.fa-github-square:hover {
+    color: #25292e;
+}
+
+i.fa.fa-google-plus-square:hover {
+    color: #d65040;
+}
+
+@media screen and (min-width: 480px) {
+    table {
+        font-size: 17px;
+    }
+
+    footer.copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #portfolio div {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #about img {
+        width: 680px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #portfolio div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #portfolio div {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .banner p {
+        font-size: 100px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+
+    .banner h2 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #portfolio div {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    #about, #portfolio, #contact, footer.copyright {
+        padding: 20px 20% 20px 20%;
+    }
 }
