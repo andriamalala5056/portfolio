@@ -9,6 +9,16 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #113f59;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #99b5b5;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -152,8 +162,7 @@ p {
 
 #portfolio {
     padding: 20px;
-    background-color: #19bec0;
-    min-height: 100vh;
+    background-color: #99b5b5;
     padding-bottom: 30px;
 }
 
@@ -189,7 +198,6 @@ footer.copyright {
 #portfolio div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
 }
 
@@ -226,7 +234,7 @@ table {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 280px;
+    max-width: 200px;
 }
 
 .social i.fa {
@@ -318,7 +326,6 @@ i.fa.fa-google-plus-square:hover {
 @media screen and (min-width: 720px) {
     #portfolio div {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
     }
 
     #about img {
